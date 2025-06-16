@@ -42,7 +42,7 @@ int main () {
         
         if (escolha == 2 && subtracao == 55) {
             
-            printf("Heil Hitler");
+            printf("O numero da sorte!");
 
         }
 
@@ -54,7 +54,7 @@ int main () {
 
         if (escolha == 3 && multiplicacao == 55) {
             
-            printf("Heil Hitler");
+            printf("O numero da sorte!");
 
         }
 
@@ -66,7 +66,7 @@ int main () {
 
         if (escolha == 4 && divisao == 55) {
             
-            printf("Heil Hitler");
+            printf("O numero da sorte!");
 
         }
 
