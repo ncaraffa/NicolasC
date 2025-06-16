@@ -9,17 +9,8 @@ int main() {
     while (i != 10) {
       printf("boa noite\n");  
       i++;
-    
-    
-    if (res == "sair")
-    {
-      break;  
     }
-
-}
-
-    
-    }
+  }
 
 
 

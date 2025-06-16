@@ -9,25 +9,5 @@ int main () {
         printf("%d \n", i);
         i++;
 
-        if (resposta == "sair")
-        {
-            
-            printf("obrigado, volte sempre");
-            
-            break;
-        }
-        
-
     }
-    
-
-
-
-
-
-
-
-
-
-
 }

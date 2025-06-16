@@ -3,11 +3,10 @@ int main() {
 
     int natty;
 
-    if (natty>1) {
-        printf("Natty é linda");
+    if (natty>0) {
+        printf("Natty eh linda");
     }
-    
-
-
-
+    else {
+        printf("Ela eh linda do mesmo jeito entendeu?")
+    }
 }

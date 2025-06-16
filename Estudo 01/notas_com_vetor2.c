@@ -14,10 +14,4 @@ int main() {
     for ( i = 0; i < 1; i++) {
         printf("%d", v[i]/2);
     }
-    
-
-
-
-
-
 }

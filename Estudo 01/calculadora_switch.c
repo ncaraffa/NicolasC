@@ -28,9 +28,9 @@ int main () {
         
         printf("%d + %d = %d\n ", n1, n2, soma);
            
-        if (escolha == 1 && soma == 88) {
+        if (escolha == 1 && soma == 55) {
             
-            printf("Heil Hitler");
+            printf("O numero da sorte!");
 
         }
 
@@ -40,7 +40,7 @@ int main () {
         
         printf("%d - %d = %d\n", n1, n2, subtracao);
         
-        if (escolha == 2 && subtracao == 88) {
+        if (escolha == 2 && subtracao == 55) {
             
             printf("Heil Hitler");
 
@@ -52,7 +52,7 @@ int main () {
 
         printf("%d x %d = %d\n", n1, n2, multiplicacao);
 
-        if (escolha == 3 && multiplicacao == 88) {
+        if (escolha == 3 && multiplicacao == 55) {
             
             printf("Heil Hitler");
 
@@ -64,7 +64,7 @@ int main () {
 
         printf("%d : %d = %d\n", n1, n2, divisao);
 
-        if (escolha == 4 && divisao == 88) {
+        if (escolha == 4 && divisao == 55) {
             
             printf("Heil Hitler");
 

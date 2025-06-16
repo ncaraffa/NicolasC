@@ -1,75 +1,50 @@
 #include <stdio.h>
 int main() {
 
-    int soma = 0;
-    int multiplicacao = 0;
-    int divisao = 0;
-    int subtracao = 0;
-    int escolha = 0;
-    int soma2 = 0;
-    int n1 = 0;
-    int n2 = 0;
-    int n3 = 0;
-    int n4 = 0;
-
+    int soma;
+    int multiplicacao;
+    int divisao;
+    int subtracao;
+    int escolha;
+    int n1;
+    int n2;
+   
     printf("escolha um numero > ");
     scanf("%d", &n1);
-    
     
     printf("escolha outro numero > ");
     scanf("%d", &n2);
     
-    printf("qual operacao deseja fazer?\n");
-    printf("1. Soma\n");
-    printf("2. Multiplicacao\n> ");
+    printf("qual operacao deseja fazer?\n 1.Soma\n 2.Subtracao\n 3.Multiplicacao\n 4.Divisao\n");
     scanf("%d", &escolha);
 
     soma = n1+n2;
-    //soma2 = soma;
+    subtracao = n1-n2;
     multiplicacao = n1*n2;
     divisao = n1/n2;
-    subtracao = n1-n2;
-    //n3 = n1;
-    //n4 = n2;
-
+    
     if (escolha == 1) {
-        printf("%d + %d = %d", n1, n2, soma);
-        if (escolha == 1 && soma == 88) {
-            printf(" (Heil hitler)");
+        printf("%d + %d = %d\n", n1, n2, soma);
+        if (escolha == 1 && soma == 55) {
+            printf("O numero da sorte!");
         }
-        
     }
     if (escolha == 2) {
-        printf("%d x %d = %d", n1, n2, multiplicacao);
-        if (escolha == 2 && multiplicacao == 88) {
-            printf(" (Heil hitler)");
+        printf("%d - %d = %d\n", n1, n2, subtracao);
+        if (escolha == 2 && subtracao == 55) {
+            printf("O numero da sorte!");
         }
     }
-    
-        //if (soma == 88) {
-        //printf("%d + %d = %d (Heil Hitler))", n3, n4, soma);
-    //}
-    //do {
-        
-        //printf("%d + %d == %d", n1, n2, soma);
-
-//    } while (soma == 88);
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    if (escolha == 3) {
+        printf("%d x %d = %d\n", n1, n2, multiplicacao);
+        if (escolha == 3 && multiplicacao == 55) {
+            printf("O numero da sorte!");
+        }
+    }
+    if (escolha == 4) {
+        printf("%d : %d = %d\n", n1, n2, divisao);
+        if (escolha == 4 && divisao == 55) {
+            printf("O numero da sorte!");
+        }
+    }
 }
